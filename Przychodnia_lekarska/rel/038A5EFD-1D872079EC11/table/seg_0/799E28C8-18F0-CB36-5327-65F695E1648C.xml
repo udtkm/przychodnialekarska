@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="799E28C8-18F0-CB36-5327-65F695E1648C" name="Wizyta">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:54:24 UTC</createdTime>
+<comment>Wizyta</comment>
+<commentInRDBMS>Wizyta</commentInRDBMS>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="D8CE9ECF-ABB2-E732-3631-3BD43A335CA1">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:54:47 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Uzytkownika_Lekarz" id="7239B825-0368-F71D-9E06-026C542AE098">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:10:41 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B64FAB7A-502B-8A27-D589-AC24825FEC7F" referredColumn="BD811189-3D8C-B9E2-0DAD-C5310F33905E"/>
+</associations>
+</Column>
+<Column name="Id_Uzytkownika_Pacjent" id="6C713934-D44A-B744-A8FA-192056CA9EA2">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:21:15 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64F44EDA-FBFE-2213-456C-40ECC2ED53F6" referredColumn="BD811189-3D8C-B9E2-0DAD-C5310F33905E"/>
+</associations>
+</Column>
+<Column name="Data_wizyty" id="B78D6F62-CAB0-130F-4ED4-5F011BF3EFD9">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:55:24 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Dzien_tygodnia" id="F6529B87-F556-30ED-A01E-73E4CCD4C8D6">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:35:01 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B29814D-F0A3-2255-6C89-AF47CFE2CBCD" referredColumn="56086E42-89E0-41E0-E7BC-40A836469462"/>
+</associations>
+</Column>
+<Column name="Id_Godzina_wizyty" id="0E92D6A4-4A30-3B9D-CD14-CF810757DFC1">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:27:19 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D7FAAAD-13C8-4656-629A-F5F58A8C192B" referredColumn="77FC259D-996F-9C43-92BB-6D3AF1D48105"/>
+</associations>
+</Column>
+<Column name="Gabinet" id="443AA9B1-D67E-6C45-1CD1-BF2A7732599E">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 21:04:42 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12D7F248-545B-CE3D-405D-99EDAAAFAF1D" name="Wizyta_PK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:54:47 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8CE9ECF-ABB2-E732-3631-3BD43A335CA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="679DA2E9-435B-C90A-D120-0F4838D52304" name="Wizyta_Uzytkownik_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:11:34 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7239B825-0368-F71D-9E06-026C542AE098"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44F1CF25-77C6-C8BA-1F10-C82CD59293A2" name="Wizyta_Uzytkownik_FKv2">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:22:21 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C713934-D44A-B744-A8FA-192056CA9EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8E82A1B-7546-6E0E-01BD-C2343C65F07F" name="Wizyta_Godzina_wizyty_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:27:41 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E92D6A4-4A30-3B9D-CD14-CF810757DFC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24CE0045-EDD0-A114-2F74-E19012B26792" name="Wizyta_Dzien_tygodnia_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:35:17 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6529B87-F556-30ED-A01E-73E4CCD4C8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

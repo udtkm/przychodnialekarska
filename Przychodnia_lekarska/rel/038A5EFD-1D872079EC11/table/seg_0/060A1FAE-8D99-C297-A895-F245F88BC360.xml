@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="060A1FAE-8D99-C297-A895-F245F88BC360" name="Godzina_wizyty">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:52:42 UTC</createdTime>
+<comment>Godzina wizyty</comment>
+<commentInRDBMS>Godzina wizyty</commentInRDBMS>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="77FC259D-996F-9C43-92BB-6D3AF1D48105">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:53:49 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godzina" id="CBD75920-AC0C-B1A5-D553-6760DFA2D8A9">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:53:49 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6E6815D-6369-9CC9-8CDD-D3FCF74406B4" name="Godzina_wizyty_PK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:55:59 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77FC259D-996F-9C43-92BB-6D3AF1D48105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83843FF9-6AE4-DCAC-EB0D-88D28FB08957" name="Grafik_lekarza">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:38:55 UTC</createdTime>
+<comment>Grafik lekarza</comment>
+<commentInRDBMS>Grafik lekarza</commentInRDBMS>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="24146A85-9019-495F-F76B-4AD928A92781">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:39:41 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Uzytkownika_Lekarz" id="483C67D3-17FE-63BB-B607-1199115BA631">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:40:11 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBE9B4F9-253A-FB99-9DB3-E90196DDCCED" referredColumn="BD811189-3D8C-B9E2-0DAD-C5310F33905E"/>
+</associations>
+</Column>
+<Column name="Id_Dzien_tygodnia" id="454FF11E-ED46-26C1-9E6C-3E5C84F01C77">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:50:01 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFE1922E-E147-61E7-6A29-5D5EE8472102" referredColumn="56086E42-89E0-41E0-E7BC-40A836469462"/>
+</associations>
+</Column>
+<Column name="Id_Godzina_wizyty" id="35B57D67-068C-C204-C9E9-33E0F09DF937">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:54:04 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B259A52-9719-C76F-4D01-25B55042E7A4" referredColumn="77FC259D-996F-9C43-92BB-6D3AF1D48105"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1295A4E5-7371-BD26-3204-3D557D314A48" name="Grafik_lekarza_PK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:39:41 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24146A85-9019-495F-F76B-4AD928A92781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF59F185-0370-D01B-AB47-BAD13B8F32DF" name="Grafik_lekarza_Uzytkownik_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:41:35 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="483C67D3-17FE-63BB-B607-1199115BA631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48A66BCA-2951-8492-AA2B-A2D0ABC232F2" name="Grafik_lekarza_Dzien_tyg_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:50:26 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="454FF11E-ED46-26C1-9E6C-3E5C84F01C77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F368FA4-1D72-CED5-E270-2BF7367EC2EA" name="Grafik_lekarza_Godz_wizyty_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:54:45 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B57D67-068C-C204-C9E9-33E0F09DF937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

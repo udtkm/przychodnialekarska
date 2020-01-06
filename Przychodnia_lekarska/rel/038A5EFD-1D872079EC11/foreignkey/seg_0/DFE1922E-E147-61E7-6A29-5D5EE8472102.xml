@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DFE1922E-E147-61E7-6A29-5D5EE8472102" containerWithKeyObject="83843FF9-6AE4-DCAC-EB0D-88D28FB08957" localFKIndex="48A66BCA-2951-8492-AA2B-A2D0ABC232F2" name="Grafik_lekarza_Dzien_tyg_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:50:26 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<referredTableLongName>Dzien_tygodnia</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>273DE3F2-4E19-B680-CAFA-3D84600224D7</referredTableID>
+<keyObject>A2F1CD0E-83BE-9B56-D2D0-6565A4375BE3</keyObject>
+<referredKeyID>A2F1CD0E-83BE-9B56-D2D0-6565A4375BE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

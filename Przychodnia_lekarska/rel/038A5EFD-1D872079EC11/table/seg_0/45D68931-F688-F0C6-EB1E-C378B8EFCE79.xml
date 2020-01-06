@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45D68931-F688-F0C6-EB1E-C378B8EFCE79" name="Uzytkownik">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:39:48 UTC</createdTime>
+<comment>Uzytkownik</comment>
+<commentInRDBMS>Uzytkownik</commentInRDBMS>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="BD811189-3D8C-B9E2-0DAD-C5310F33905E">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:44:15 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Rola" id="C0DE29DF-9653-88D3-B77B-4AFF0BCC8A70">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:05:16 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9923114C-61E9-DB42-B55E-C51EF5F8FEAA" referredColumn="2DCDF15B-6662-6964-6FDF-540587B4135E"/>
+</associations>
+</Column>
+<Column name="Imie" id="33E471A6-A229-3E12-DADC-7D778A0BCDDA">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:45:00 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="05B54249-8A3C-269E-F1D5-73A3B14C9555">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:45:17 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="59D489D5-ADFF-1ACE-C10A-0CBCD11A5CEF">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:08:46 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Login" id="D538DF01-1DEE-B46E-5AAF-7540D4F33339">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:45:39 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Haslo" id="8ACEB789-B313-A5A4-0A14-0E849B5A8C13">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:45:55 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="CCB9CE9C-CF02-640A-8D4A-9CA57022DCFB">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:46:55 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E-mail" id="A850FC22-44E5-F0C3-EC50-127602DD50B5">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:48:01 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01EA8D8E-CEB8-7D67-CF8C-486222E298B1" name="Uzytkownik_PK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:44:15 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD811189-3D8C-B9E2-0DAD-C5310F33905E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66F19753-4454-901A-5DCE-474A109E675E" name="Uzytkownik_Rola_FK">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 20:06:56 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0DE29DF-9653-88D3-B77B-4AFF0BCC8A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

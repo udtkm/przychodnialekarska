@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Przychodnia_lekarska" id="2AD65D91-25BE-40FF-B2A0-5F78AC8A654F" version="3.5">
+<createdBy>Komp</createdBy>
+<createdTime>2020-01-03 19:36:49 UTC</createdTime>
+<ownerDesignName>Przychodnia_lekarska</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2AD65D91-25BE-40FF-B2A0-5F78AC8A654F</designId>
+</OSDM_Design>
